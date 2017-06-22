@@ -8,6 +8,4 @@ import { Component } from "@angular/core";
                 </md-toolbar>`
 })
 
-export class NavbarComponent{
-
-}
+export class NavbarComponent{}

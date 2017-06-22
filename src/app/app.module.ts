@@ -1,10 +1,15 @@
+//angular
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
-import { MaterialModule } from './shared/material.module';
 
-import { AppComponent } from './app.component';
+//modules
+import { MaterialModule } from './shared/material.module';
 import { SharedModule } from './shared/shared.module';
+import { AboutModule } from './about/about.module';
+
+//components
+import { AppComponent } from './app.component';
 
 
 import 'hammerjs';
@@ -18,6 +23,7 @@ import 'hammerjs';
     BrowserAnimationsModule,
     MaterialModule,
     SharedModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
