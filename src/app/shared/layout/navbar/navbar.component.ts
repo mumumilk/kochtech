@@ -3,7 +3,9 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: 'kt-navbar',
-    templateUrl: './navbar.component.html'
+    template: ` <md-toolbar color="primary" >
+                    <span>Application Title</span>
+                </md-toolbar>`
 })
 
 export class NavbarComponent{
