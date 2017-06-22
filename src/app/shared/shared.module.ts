@@ -1,18 +1,17 @@
 import { NgModule } from '@angular/core';
 
-import { MaterialModule } from './material/material.module';
-import { NavbarComponent } from "./layout/navbar/navbar.component";
+import { LayoutModule } from "./layout/layout.module";
+
+
 
 @NgModule({
     imports:[
-
+        LayoutModule
     ],
     exports:[
-        MaterialModule,
-        NavbarComponent
+        LayoutModule
     ],
     declarations:[
-        NavbarComponent,
         
     ]
 })
