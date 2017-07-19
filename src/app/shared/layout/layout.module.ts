@@ -3,22 +3,20 @@ import { NgModule } from '@angular/core';
 
 //modules
 import { MaterialModule } from '../material.module';
-
+import { RouterModule } from "@angular/router";
 //components
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
+import { LayoutComponent } from "app/shared/layout/layout.component";
 
 @NgModule({
     imports:[
-        MaterialModule
+        MaterialModule,
+        RouterModule
     ],
     exports:[
-        NavbarComponent,
-        FooterComponent
+        LayoutComponent
     ],
     declarations:[
-        NavbarComponent,
-        FooterComponent
+        LayoutComponent
     ]
 })
 export class LayoutModule{}

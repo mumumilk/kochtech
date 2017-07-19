@@ -1,3 +1,17 @@
-.asd{
-    background-color: whitesmoke;
+.profile-card{
+    width: 30%;
+    margin-left: 10%;
+    height: 70%;
+    top: 50px;
+    background-color: #263238
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+
+  border: 2px solid white;
 }
